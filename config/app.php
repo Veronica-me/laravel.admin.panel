@@ -175,6 +175,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+          /* providers my app */
+          Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
     ],
 
     /*
